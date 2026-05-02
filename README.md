@@ -152,7 +152,13 @@ python inference.py --input sample.json --output result.json
 ### [YOU MUST HAVE INSTALL NODE.js]
 
 A modern **React + Vite UI** has also been developed for demonstration.
+---
+### To Run Backend 
 
+```bash
+python server.py
+```
+---
 ### 🚀 Run Frontend
 
 ```bash
@@ -160,7 +166,7 @@ cd bis-ui
 npm install
 npm run dev
 ```
-
+---
 ### Features:
 
 * Query input interface
