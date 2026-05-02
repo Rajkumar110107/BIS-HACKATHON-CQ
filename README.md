@@ -21,7 +21,8 @@ The system is designed for **single-command execution** for easy evaluation.
 
 ---
 ### IMPORTANT Python (>= 3.9 Version)
-### 🚀 Recommended Execution (One Command) Python (>= 3.9 Version)
+---
+### 🚀 Recommended Execution (One Command) 
 
 ```bash
 .\run.bat
