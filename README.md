@@ -20,8 +20,8 @@ Supports multi-domain queries with fast inference and **single-command execution
 The system is designed for **single-command execution** for easy evaluation.
 
 ---
-
-### 🚀 Recommended Execution (One Command)
+### IMPORTANT Python (>= 3.9 Version)
+### 🚀 Recommended Execution (One Command) Python (>= 3.9 Version)
 
 ```bash
 .\run.bat
