@@ -1,11 +1,11 @@
-#  BIS AI Standard Recommendation System
+# ⚡ BIS AI Standard Recommendation System
 
 AI-powered BIS Standard Recommendation System using **RAG (Retrieval-Augmented Generation)**.
 Supports multi-domain queries with fast inference and **single-command execution**.
 
 ---
 
-## Features
+## 🚀 Features
 
 * 🔍 Multi-domain support (cement, aggregates, steel, soil, etc.)
 * 🧠 Hybrid retrieval (semantic + keyword search)
@@ -15,13 +15,69 @@ Supports multi-domain queries with fast inference and **single-command execution
 
 ---
 
-## Backend (Primary Evaluation)
+## ⚡ Backend (Primary Evaluation)
 
-The system is designed to run using a **single command**, as required for evaluation.
+The system is designed for **single-command execution** for easy evaluation.
 
-### ▶️ Run Inference
+---
+
+### 🚀 Recommended Execution (One Command)
 
 ```bash
+.\run.bat
+```
+
+> ⚠️ Run in Windows PowerShell or Command Prompt
+
+---
+
+### 🧠 What This Does
+
+The script automatically:
+
+* 📦 Installs dependencies
+* 📚 Builds corpus (only if missing)
+* ⚡ Runs inference
+* 📄 Displays final output
+
+---
+
+### 📜 run.bat
+
+```bat
+@echo off
+
+echo 🚀 Starting BIS RAG System...
+
+echo 📦 Installing dependencies...
+pip install -r requirements.txt
+
+if not exist data\processed\corpus.json (
+    echo 📚 Building corpus...
+    python src\ingest.py
+) else (
+    echo ✅ Corpus already exists, skipping...
+)
+
+echo ⚡ Running inference...
+python inference.py --input sample.json --output result.json
+
+echo 📄 Result:
+type result.json
+
+echo ✅ Done!
+pause
+```
+
+---
+
+## 🔁 Alternative Manual Execution
+
+If required, the system can also be run manually:
+
+```bash
+pip install -r requirements.txt
+python src/ingest.py
 python inference.py --input sample.json --output result.json
 ```
 
@@ -60,37 +116,26 @@ python inference.py --input sample.json --output result.json
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Requirements
 
-### 1. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Build Corpus (Only First Time)
-
-```bash
-python src/ingest.py
-```
-
-### 3. Run System
-
-```bash
-python inference.py --input sample.json --output result.json
-```
+* Python (>= 3.9)
+* pip
 
 ---
 
-##  System Architecture
+## 🧩 System Architecture
 
 * **Dataset**: BIS PDF (962 pages)
+
 * **Chunking**: Text segmentation
+
 * **Embeddings**: Sentence Transformers
+
 * **Retrieval**:
 
   * BM25 (keyword)
   * Dense similarity (semantic)
+
 * **Ranking**:
 
   * Query alignment
@@ -99,7 +144,7 @@ python inference.py --input sample.json --output result.json
 
 ---
 
-## Frontend (Optional)
+## 🌐 Frontend (Optional)
 
 A modern **React + Vite UI** has also been developed for demonstration.
 
@@ -110,16 +155,16 @@ A modern **React + Vite UI** has also been developed for demonstration.
 * Card-based result display
 
 > ⚠️ Note: Frontend is optional.
-> Evaluation is based on backend single-command execution.
+> Evaluation is based on backend execution.
 
 ---
 
 ## 🏆 Hackathon Highlights
 
-*  Fully automated pipeline
-*  Single-command execution
-*  Works across all domains
-*  Fast, scalable, and robust
+* ✅ Fully automated pipeline
+* ✅ Single-command execution
+* ✅ Works across all domains
+* ✅ Fast, scalable, and robust
 
 ---
 
@@ -134,5 +179,7 @@ A modern **React + Vite UI** has also been developed for demonstration.
 
 ## 📌 Note
 
-This project focuses on backend intelligence and evaluation efficiency.
-Frontend is included only for visualization and demo purposes.
+* The system is fully automated using `run.bat`
+* No manual setup required
+* Designed for evaluator-friendly execution
+* Frontend is included only for demonstration purposes
