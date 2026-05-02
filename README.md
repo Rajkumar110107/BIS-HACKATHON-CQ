@@ -154,6 +154,7 @@ A modern **React + Vite UI** has also been developed for demonstration.
 cd bis-ui
 npm install
 npm run dev
+```
 
 ### Features:
 
@@ -166,7 +167,7 @@ npm run dev
 
 ---
 
-## 🏆 Hackathon Highlights
+### 🏆 Hackathon Highlights
 
 * ✅ Fully automated pipeline
 * ✅ Single-command execution
@@ -175,7 +176,7 @@ npm run dev
 
 ---
 
-## 👨‍💻 Authors
+### 👨‍💻 Authors
 
 **Rajkumar R V**
 **Subhiksha S**
