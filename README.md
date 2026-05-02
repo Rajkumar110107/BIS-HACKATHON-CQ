@@ -25,6 +25,9 @@ The system is designed for **single-command execution** for easy evaluation.
 ### 🚀 Recommended Execution (One Command) 
 
 ```bash
+git clone https://github.com/Rajkumar110107/BIS-HACKATHON-CQ.git
+cd BIS-HACKATHON-CQ
+python --version
 .\run.bat
 ```
 
