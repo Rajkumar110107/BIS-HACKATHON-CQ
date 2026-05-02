@@ -145,7 +145,8 @@ python inference.py --input sample.json --output result.json
 
 ---
 
-## 🌐 Frontend (Optional)
+## 🌐 Frontend (Optional) 
+### [YOU MUST HAVE INSTALL NODE.js]
 
 A modern **React + Vite UI** has also been developed for demonstration.
 
