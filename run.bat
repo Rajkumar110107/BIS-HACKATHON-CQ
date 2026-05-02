@@ -2,12 +2,6 @@
 
 echo 🚀 Starting BIS RAG System...
 
-python -V >nul 2>&1
-IF %ERRORLEVEL% NEQ 0 (
-    echo ❌ Python not found. Please install Python (>=3.9)
-    pause
-    exit /b
-)
 
 echo 📦 Installing dependencies...
 pip install -r requirements.txt
