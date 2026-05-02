@@ -80,6 +80,9 @@ pause
 If required, the system can also be run manually:
 
 ```bash
+git clone https://github.com/Rajkumar110107/BIS-HACKATHON-CQ.git
+cd BIS-HACKATHON-CQ
+python --version
 pip install -r requirements.txt
 python src/ingest.py
 python inference.py --input sample.json --output result.json
