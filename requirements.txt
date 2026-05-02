@@ -1,0 +1,7 @@
+sentence-transformers
+numpy
+scikit-learn
+pymupdf
+rank-bm25
+transformers
+torch

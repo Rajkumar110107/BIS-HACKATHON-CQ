@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "retrieved_standards": [
+      "IS 4031",
+      "IS 14276",
+      "IS 4032",
+      "IS 12406",
+      "IS 269"
+    ],
+    "latency_seconds": 0.349
+  },
+  {
+    "id": 2,
+    "retrieved_standards": [
+      "IS 2386",
+      "IS 383",
+      "IS 2116",
+      "IS 2185",
+      "IS 2686"
+    ],
+    "latency_seconds": 0.03
+  },
+  {
+    "id": 3,
+    "retrieved_standards": [
+      "IS 4032",
+      "IS 3466",
+      "IS 4031",
+      "IS 1489",
+      "IS 2185"
+    ],
+    "latency_seconds": 0.025
+  },
+  {
+    "id": 4,
+    "retrieved_standards": [
+      "IS 2185",
+      "IS 2686",
+      "IS 9142",
+      "IS 2386",
+      "IS 2547"
+    ],
+    "latency_seconds": 0.027
+  },
+  {
+    "id": 5,
+    "retrieved_standards": [
+      "IS 4032",
+      "IS 4031",
+      "IS 269",
+      "IS 12269",
+      "IS 12330"
+    ],
+    "latency_seconds": 0.029
+  },
+  {
+    "id": 6,
+    "retrieved_standards": [
+      "IS 12235",
+      "IS 8543",
+      "IS 13592",
+      "IS 14735",
+      "IS 1364"
+    ],
+    "latency_seconds": 0.028
+  },
+  {
+    "id": 7,
+    "retrieved_standards": [
+      "IS 432",
+      "IS 13990",
+      "IS 1786",
+      "IS 14242",
+      "IS 14201"
+    ],
+    "latency_seconds": 0.024
+  },
+  {
+    "id": 8,
+    "retrieved_standards": [
+      "IS 736",
+      "IS 2677",
+      "IS 2676",
+      "IS 2525",
+      "IS 738"
+    ],
+    "latency_seconds": 0.024
+  },
+  {
+    "id": 9,
+    "retrieved_standards": [
+      "IS 4032",
+      "IS 4031",
+      "IS 269",
+      "IS 12269",
+      "IS 12330"
+    ],
+    "latency_seconds": 0.025
+  },
+  {
+    "id": 10,
+    "retrieved_standards": [
+      "IS 875",
+      "IS 1364",
+      "IS 8272",
+      "IS 1124",
+      "IS 3495"
+    ],
+    "latency_seconds": 0.031
+  }
+]
