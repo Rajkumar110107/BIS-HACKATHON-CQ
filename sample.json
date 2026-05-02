@@ -21,22 +21,18 @@
     },
     {
         "id": 6,
-        "query": "soil compaction and testing standards"
-    },
-    {
-        "id": 7,
         "query": "steel reinforcement standards in construction"
     },
     {
-        "id": 8,
+        "id": 7,
         "query": "road construction materials and specifications"
     },
     {
-        "id": 9,
+        "id": 8,
         "query": "testing methods for cement and concrete"
     },
     {
-        "id": 10,
+        "id": 9,
         "query": "building materials standards used in infrastructure"
     }
 ]
