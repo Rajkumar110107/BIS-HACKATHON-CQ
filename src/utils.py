@@ -2,12 +2,24 @@ import re
 
 
 def extract_codes(text):
-    # Match exact IS code formats correctly (e.g. "IS 269", "IS:269", "IS-269")
     pattern = r'\bIS\s*[:\-\.]?\s*(\d{2,5})\b'
     matches = re.findall(pattern, text)
-    
-    # Normalize to "IS XXXX"
     codes = [f"IS {match}" for match in matches]
-    
-    # Dedup and sort
-    return sorted(list(set(codes)))
+    return sorted(list(set(codes)))
+
+
+def detect_domain(query: str):
+    q = query.lower()
+
+    if "cement" in q or "concrete" in q:
+        return "cement"
+    elif "soil" in q or "compaction" in q:
+        return "soil"
+    elif "steel" in q or "reinforcement" in q:
+        return "steel"
+    elif "road" in q or "bitumen" in q:
+        return "road"
+    elif "aggregate" in q:
+        return "aggregate"
+
+    return "general"
