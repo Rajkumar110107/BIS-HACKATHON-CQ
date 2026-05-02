@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -94,7 +94,7 @@ class Retriever:
             })
 
         return results
-=======
+
 import json
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -190,4 +190,3 @@ class Retriever:
             })
 
         return results
->>>>>>> ac73c94 (Update: pipeline, retriever improvements + config fixes)
