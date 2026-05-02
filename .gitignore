@@ -1,6 +1,5 @@
-data/
-result.json
+data/processed/
+*.npy
 __pycache__/
 *.pyc
-.venv/
-node_modules/
+result.json
