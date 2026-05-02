@@ -1,7 +1,9 @@
-sentence-transformers
-numpy
-scikit-learn
-pymupdf
-rank-bm25
-transformers
-torch
+sentence-transformers==2.2.2
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+rank-bm25==0.2.2
+PyMuPDF==1.23.7
+tqdm>=4.65.0
+flask>=2.3.0
