@@ -2,10 +2,7 @@
 
 echo 🚀 Starting BIS RAG System...
 
-<<<<<<< HEAD
-=======
 
->>>>>>> ac73c94 (Update: pipeline, retriever improvements + config fixes)
 
 echo 📦 Installing dependencies...
 pip install -r requirements.txt
