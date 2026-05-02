@@ -148,6 +148,13 @@ python inference.py --input sample.json --output result.json
 
 A modern **React + Vite UI** has also been developed for demonstration.
 
+### 🚀 Run Frontend
+
+```bash
+cd bis-ui
+npm install
+npm run dev
+
 ### Features:
 
 * Query input interface
@@ -168,7 +175,7 @@ A modern **React + Vite UI** has also been developed for demonstration.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
 **Rajkumar R V**
 **Subhiksha S**
